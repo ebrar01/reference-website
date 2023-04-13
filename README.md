@@ -17,13 +17,28 @@
     - p ; used for paragraphs. It is a block-element. It always start on a new line. Browsers automatically add margin before and after each "p" element. 
     - lists: ul, ol, dl ; "ul" describes unordered list, "ol" describes ordered list. "li" tag need to be used for each list item under "ul" or "ol" list tags. And "dl" describes description list. "dt" used for term or name, and just used once. "dd" used for description of term, and can be more than one. 
     - a ; this tag used for links in html. Proper way to do it is; `<a href=“”> Link text </a>`
-    - img ; this tag is used to embed an image in an HTML page. Images are not technically inserted into a web page; images are linked to web pages. Proper way to do it; `<img src=“” alt=“” />`
+    - img ; this tag is used to embed an image in an HTML page. Images are not technically inserted into a web page; images are linked to web pages. Proper way to do it is; `<img src=“” alt=“” />`
     - q ; used to mark up quotes embedded in other elements like a paragraph.  This element is intended for short quotations that don't require paragraph breaks. 
     - blockquote ; used for long quotations. 
     - cite ; Marking the source of the quote. 
     - em ; used for words that have a stressed emphasis compared to surrounding text.
     - strong ; used for strong importance or urgency emphasis. 
     - b ; used for keywords or make the text bold. 
-    - i; used for Another language, technical term, title
+    - i ; used for Another language, technical term, title
     - small ; Used for specifying smaller text. 
 
+6. Explain block Elements and also explain the list of block elements and why they are used from below: 
+- A Block-level element occupies the entire horizontal space of its parent element, and vertical space equal to the height of its contents, thereby creating a "block".
+    - html ; this elements always need to give a meaning to your content.
+    - head ; 
+    - body ; 
+    - header
+    - nav
+    - main
+    - section
+    - article
+    - div ; Block element used to group elements together.
+    - aside
+    - footer
+    - span
+    - small
