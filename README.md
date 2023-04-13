@@ -5,3 +5,5 @@
 - Best practices for commit the messages is using the GitHub desktop app. Commit the code to the main first, and then push it to the origin. In this way you can see your code changes in the GitHub. 
 3. What is HTML? 
 - HTML or The HyperText Markup Language is a coding language for documents designed to be displayed in a web browser.
+4. Proper syntax for HTML tags.
+- After you find the spesific tag which is defining the purpose of the text, put "<" before the tag, and put ">" to close the tag. Or use "/" for comments. 
