@@ -43,3 +43,9 @@
     - span ; this element is used to mark up a part of a text, or part of a document. Span element is an inline container element. 
     - small ; this element used for specifying smaller text.
 
+7. Explain why accessibility is important and also explain the accessibility properties like:
+- Accessibility is important, because our web pages need to be proper and easy to reach for all users, even who has any kind of disability. 
+    - landmark roles ; This element is for the people who is using the screen readers. They can jump the specific section that they want within the website. 
+    - aria labels ; These are the descriptions for the links that used in the webpage. 
+    - image alternative texts ; This elements are for an explanation for the photos or images. This can be for if the photo is not uploading or someone who can not see the image. 
+
