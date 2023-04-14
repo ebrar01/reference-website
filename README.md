@@ -49,3 +49,5 @@
     - aria labels ; These are the descriptions for the links that used in the webpage. 
     - image alternative texts ; This elements are for an explanation for the photos or images. This can be for if the photo is not uploading or someone who can not see the image. 
 
+8. What is CSS and how can we implement CSS to our html file (write a proper explanation with the code required to attach a CSS file inside html file) 
+- CSS is Cascading Style Sheets is the language to control the appearance of our HTML pages. You need to create a css folder. And a css file into that css folder. The extension needs to be .css.  After you create it, you need to link your css file to the html page. You need to put it under the "head" element, with using the "link" element. The proper way to do it is `<link rel="stylesheet" href="css/style.css">`. 
