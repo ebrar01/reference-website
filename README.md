@@ -50,4 +50,26 @@
     - image alternative texts ; This elements are for an explanation for the photos or images. This can be for if the photo is not uploading or someone who can not see the image. 
 
 8. What is CSS and how can we implement CSS to our html file (write a proper explanation with the code required to attach a CSS file inside html file) 
-- CSS is Cascading Style Sheets is the language to control the appearance of our HTML pages. You need to create a css folder. And a css file into that css folder. The extension needs to be .css.  After you create it, you need to link your css file to the html page. You need to put it under the "head" element, with using the "link" element. The proper way to do it is `<link rel="stylesheet" href="css/style.css">`. 
+- CSS is Cascading Style Sheets is the language to control the appearance of our HTML pages. You need to create a css folder. And a css file into that css folder. The extension needs to be .css.  After you create it, you need to link your css file to the html page. You need to put it under the "head" element, with using the "link" element. The proper way to do it is ;  `<link rel="stylesheet" href="css/style.css">` .
+
+9. What is the difference between CSS property and value (write explanation and an example code) 
+- The CSS property is The type of design you want to add. Ex. width, color, border, etc. But the value is Accepted value for property. Ex. 30px, blue, etc. 
+
+10. Why do we use border-box property in CSS? 
+- border-box tells the browser to account for any border and padding in the values you specify for an element's width and height. 
+
+11. Explain different type of ways we can add spacing to an element. 
+- You can use padding, border or margin to add spacing to your element. Also you can add them manually as well. 
+
+12. What is the main difference between margin and padding? 
+- Padding represents the amount of inner space an element has, while the margin is whitespace available surrounding an element. 
+
+13. What are different types of display properties? 
+- There are four types of display properties. They are; inline, block, inline-block and none. INLINE ; allows element on the same line; height and width properties have no effect. BLOCK ; force the element to be on its own line regardless of its width. INLINE-BLOCK ; element is formatted as an inline element but you can apply height and width values. NONE ; the element is completely removed. 
+
+14. Write a brief explanation of flexbox property.
+- It is a one-dimensional layout model. For more complex layouts you can use Flexbox to control the flow and alignment of
+elements. 
+
+15. What are different types of flexbox properties and what is the major difference between them? 
+- The flexbox properties are; flex-direction, flex-wrap, flex-flow, justify-content, align-items, align-content. The main difference is they can be used in row or a column. And you have more options to create your content according to the margin, padding, or etc. 
