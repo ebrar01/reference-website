@@ -30,15 +30,16 @@
 6. Explain block Elements and also explain the list of block elements and why they are used from below: 
 - A Block-level element occupies the entire horizontal space of its parent element, and vertical space equal to the height of its contents, thereby creating a "block".
     - html ; this elements always need to give a meaning to your content.
-    - head ; 
-    - body ; 
-    - header
-    - nav
-    - main
-    - section
-    - article
+    - head ; this element includes the metadata to make the HTML page readable for machine or web browser. 
+    - body ; this element includes the content for the webpage. Every document can has only one body element.
+    - header ; this element generally positions on the top of the page and can include a logo or company name. It is a introductory content. Headings, subheading, authors can put into this element. 
+    - nav ; this element are used for navigation links. Navigation links can be use for within the current documents or to the other documents. 
+    - main ; this element represent the main content of the page. Every web page can has only one main element. It is also tells the browser to where the main content is.
+    - section ; this element is used to wrap around related pieces of content. Every section element has its own heading.
+    - article ; this element is used to define an independent, self-contained content. It can be be independently distributable or reusable. 
     - div ; Block element used to group elements together.
-    - aside
-    - footer
-    - span
-    - small
+    - aside ; this element represent a document's portion whose content is only indirectly related to the document's main content.Asides are frequently presented as sidebars.
+    - footer ; this element used for links, copyright information, extra information about the company, terms and services. This element genarally positions at the bottom of the page. 
+    - span ; this element is used to mark up a part of a text, or part of a document. Span element is an inline container element. 
+    - small ; this element used for specifying smaller text.
+
