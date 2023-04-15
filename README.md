@@ -73,3 +73,34 @@ elements.
 
 15. What are different types of flexbox properties and what is the major difference between them? 
 - The flexbox properties are; flex-direction, flex-wrap, flex-flow, justify-content, align-items, align-content. The main difference is they can be used in row or a column. And you have more options to create your content according to the margin, padding, or etc. 
+
+16. Explain with code the use of flexbox property on a parent element and also explain the sub properties you might need for the flexbox property.
+- In the .css file, after you defined the element that you want to position, you need to apply which flexbox property you want. They might be; flex-direction, display, flex-wrap, justify-content, align-items, align-content, etc. For example if we want to edit the .container element, the code would be ; `.container {display:"the sub property";}`
+
+17. Write a code example on how you will use a flexbox property on a parent element with sub properties. 
+- `.container {flex-direction: column-reverse;}`
+
+18. What is CSS grid property? 
+- CSS grid is basically two-dimensional grid system to CSS. A grid is a set of intersecting horizontal and vertical lines defining columns and rows. 
+
+19. Write the parent and two sub-properties used for CSS Grid Property. 
+- The parent element is GRID CONTAINER. HEADER and FOOTER two sub-properties examples for CSS Grid Property. 
+
+20. What is the difference between display: flex and display: grid? 
+- Flexbox property is designed for one-dimension, either row or column. Grid properties is designed for two-dimensions; rows and columns at the same time.  
+
+21. What sub-property we use to divide elements in CSS Grid properties?
+- We use `"grid-template-columns"` 
+
+22. What unit we use to fractionally divide the element width in CSS Grid property and what are others unit we can use alternatively? (Write a code example) 
+- We can use `fr` unit to represent a fraction of the available space in the grid container. We can use `px` unit as well. 1fr = one fraction of the available space minus the two fixed values of 200px plus 200px. For example ; `{grid-template-columns: 3fr 3fr 3fr;}` .
+
+23. What is the area property in CSS grid we use for the child elements? 
+- The Grid Area property specifies a grid item's size and location in a grid layout. And the child elements for are property are; grid-row-start, grid-column-start,grid-row-end, grid-column-end.
+
+24. Which sub-property of display grid you can use to prevent displaying empty columns. Write a code example of that property. 
+- The auto-fir sub-property is used for prevent displayinf empty columns. `.grid-container{grid-template-columns: repeat(auto-fit, minmax(200px, 4fr));}` 
+
+25. Explain the steps to add google fonts to your CSS file and how will you link it to the html file. 
+- You need to chose your font from google fonts website. The website should give you html and css codes to show how you going to write your code. You need to link your html code into your html file under head element. And also you need to use the css code that the website gave you while you are writing your css codes. 
+ 
